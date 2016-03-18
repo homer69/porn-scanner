@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #222222;
+}
+header {
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+}
+header ul {
+	margin: 0;
+}
+header li {
+	float: left;
+}
+header li div {
+	padding: 0 25px;
+}
+header a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 0 25px;
+}
+header a:hover {
+	color: black;
+	background-color: white;
+	height: 50px;
+}
+div.column {
+	padding-top: 75px;
+}
+h2 {
+    margin-top: 0;
+    padding-top: 30px;
+}
+div.item {
+    width: 400px;
+    margin: 0 auto 25px 25px;
+    background: black;
+    padding: 0 25px 25px 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.icon {
+	font-size: 1.5em;
+}
+
+/* button */
+a.button {
+	float: right;
+	display: none;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+	border: 1px solid white;
+	border-radius: 25px;
+	text-decoration: none;
+}
+div.item:hover a.button {
+	display: block;
+}
+div.item a.button:hover {
+	color: red;
+	border-color: red;
+}
+div.item a.favorite {
+	margin-top: 50px;
+	margin-right: -27px;
+}
+div.item a.delete {
+	margin-top: 15px;
+}
