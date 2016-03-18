@@ -22,8 +22,6 @@ header li div {
 }
 header a {
 	display: block;
-	text-decoration: none;
-	color: white;
 	padding: 0 25px;
 }
 header a:hover {
@@ -31,12 +29,18 @@ header a:hover {
 	background-color: white;
 	height: 50px;
 }
+a {
+	text-decoration: none;
+	color: white;
+}
 div.column {
 	padding-top: 75px;
 }
 h2 {
     margin-top: 0;
     padding-top: 30px;
+	width: calc(100% - 25px);
+	min-height: 35px;
 }
 div.item {
     width: 400px;
